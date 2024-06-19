@@ -18,21 +18,6 @@ public class CullingObject : MonoBehaviour
 		}
 	}
 	
-	protected virtual Transform GetTransform()
-	{
-		return this._transform;
-	}
-	
-	private void OnDrawGizmosSelected()
-	{
-		if (!this._drawSphere)
-		{
-			return;
-		}
-		Gizmos.color = (this.IsVisible ? Color.yellow : Color.red);
-		Gizmos.DrawWireSphere(this.Position, this._radius);
-	}
-
 	// Token: 0x04004326 RID: 17190
 	[SerializeField]
 	protected float CullDistance = 80f;
