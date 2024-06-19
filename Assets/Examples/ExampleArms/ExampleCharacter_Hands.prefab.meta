@@ -3,5 +3,5 @@ guid: 09068ee39ab4b0a49b3bc8fe17524dfe
 PrefabImporter:
   externalObjects: {}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: examples/clothing/examplecharacter_hands
+  assetBundleVariant: bundle
