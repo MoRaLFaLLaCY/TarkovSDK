@@ -13,7 +13,7 @@ public class GameReadyClothingHeadCreatorEditor : EditorWindow
     private GameObject[] skinGameObjects;
     private Preset[] skinPresets;
 
-    [MenuItem("Groovey GUI Toolbox/Tools/Clothing and Head Creator", priority = 3)]
+    [MenuItem("Tools/GrooveyPenguinX/Clothing and Head Creator", priority = 3)]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(GameReadyClothingHeadCreatorEditor));

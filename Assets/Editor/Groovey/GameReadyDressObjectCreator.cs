@@ -4,7 +4,7 @@ using EFT.Visual;
 
 public class GameReadyDressObjectCreatorEditor : EditorWindow
 {
-    [MenuItem("Groovey GUI Toolbox/Tools/Create Game Ready Dress Object(s)", priority = 2)]
+    [MenuItem("Tools/GrooveyPenguinX/Create Game Ready Dress Object(s)", priority = 2)]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(GameReadyDressObjectCreatorEditor));

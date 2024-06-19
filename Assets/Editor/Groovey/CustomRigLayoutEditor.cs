@@ -14,7 +14,7 @@ public class CustomRigEditor : EditorWindow
     private List<int> cellWidths = new List<int>();
     private List<int> cellHeights = new List<int>();
 
-    [MenuItem("Groovey GUI Toolbox/Tools/Custom Rig Editor", priority = 5)]
+    [MenuItem("Tools/GrooveyPenguinX/Custom Rig Editor", priority = 5)]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(CustomRigEditor));

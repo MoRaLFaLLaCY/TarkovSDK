@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CustomGUIToolboxEditor : EditorWindow
 {
-    [MenuItem("Groovey GUI Toolbox/Groovey's GUI Toolbox")]
+    [MenuItem("Tools/GrooveyPenguinX/Groovey's GUI Toolbox")]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(CustomGUIToolboxEditor), false, "GUI Toolbox");

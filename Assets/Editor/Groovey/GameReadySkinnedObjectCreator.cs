@@ -18,7 +18,7 @@ public class GameReadySkinnedObjectCreatorEditor : EditorWindow
     private GameObject[] selectedLootObjects;
     private GameObject[] selectedSkinObjects;
 
-    [MenuItem("Groovey GUI Toolbox/Tools/Skinned Object Creator", priority = 1)]
+    [MenuItem("Tools/GrooveyPenguinX/Skinned Object Creator", priority = 1)]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(GameReadySkinnedObjectCreatorEditor));

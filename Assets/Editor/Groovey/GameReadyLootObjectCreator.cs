@@ -4,7 +4,7 @@ using EFT.Visual;
 
 public class GameReadyLootItemEditor : EditorWindow
 {
-    [MenuItem("Groovey GUI Toolbox/Tools/Create GameReady Loot Object(s)", priority = 0)]
+    [MenuItem("Tools/GrooveyPenguinX/Create GameReady Loot Object(s)", priority = 0)]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(GameReadyLootItemEditor));
