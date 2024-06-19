@@ -10,14 +10,6 @@ public class CullingObject : MonoBehaviour
 {
 	public bool IsVisible { get; private set; }
 	
-	public Vector3 Position
-	{
-		get
-		{
-			return this.GetTransform().position + this._shift;
-		}
-	}
-	
 	// Token: 0x04004326 RID: 17190
 	[SerializeField]
 	protected float CullDistance = 80f;
